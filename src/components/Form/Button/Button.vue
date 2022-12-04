@@ -3,7 +3,7 @@
     type="button"
     :class="`btn btn-${genre ? genre + '-' : ''}${
       type || 'primary'
-    } ${className} text-center`"
+    } ${className} text-center w-100`"
     @click="onClick"
     :style="style"
   >
@@ -38,5 +38,14 @@ export default {
 .btn-primary:hover {
   background: #16a3a1;
   border-color: #16a3a1;
+}
+
+.btn-outline-secondary {
+  border-color: #b7bdc4;
+}
+
+.btn-transparent:hover {
+  background: #e4e8ed;
+  border-color: #e4e8ed;
 }
 </style>

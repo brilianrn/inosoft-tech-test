@@ -1,0 +1,20 @@
+[
+  {
+    "value": "SHP",
+    "label": "SHP"
+  },
+  {
+    "value": "Gram",
+    "label": "Gram"
+  },
+
+  {
+    "value": "Meter",
+    "label": "Meter"
+  },
+
+  {
+    "value": "Pcs",
+    "label": "Pcs"
+  }
+]

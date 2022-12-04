@@ -1,6 +1,10 @@
 <template>
-  <select class="form-control form-select" @change="(e) => e?.target?.value">
-    <option :value="placeholder">
+  <select
+    class="form-control form-select w-100"
+    style="width: 100%"
+    @change="(e) => e?.target?.value"
+  >
+    <option :value="placeholder" hidden>
       {{ placeholder }}
     </option>
     <option
